@@ -1,0 +1,100 @@
+path_to_executable = "BreastAGD282.exe"
+# RANZCR spreadsheet parameters
+sheet = "MGD"
+source_to_breast_support = "P10"
+
+[20_mm_PMMA]
+air_kerma = "P24"
+angle_range = ""
+anode = "P14"
+density_percentage = ""
+density_percentile = 50
+detector_above_support = "P11"
+filter_element = "P15"
+filter_thickness = 0.03
+hvl = "P18"
+modality = "DM"
+number_angles = ""
+thickness = "P25"
+view = "CC"
+voltage = "P13"
+
+[ACR_phantom]
+air_kerma = "Q24"
+angle_range = ""
+anode = "Q14"
+density_percentage = ""
+density_percentile = 50
+detector_above_support = "P11"
+filter_element = "Q15"
+filter_thickness = 0.03
+hvl = "Q18"
+modality = "DM"
+number_angles = ""
+thickness = "Q25"
+view = "CC"
+voltage = "Q13"
+
+[60_mm_PMMA]
+air_kerma = "R24"
+angle_range = ""
+anode = "R14"
+density_percentage = ""
+density_percentile = 50
+detector_above_support = "P11"
+filter_element = "R15"
+filter_thickness = 0.03
+hvl = "R18"
+modality = "DM"
+number_angles = ""
+thickness = "R25"
+view = "CC"
+voltage = "R13"
+
+[20_mm_PMMA_tomo]
+air_kerma = "X23"
+angle_range = 15
+anode = "X15"
+density_percentage = ""
+density_percentile = 50
+detector_above_support = "X11"
+filter_element = "X16"
+filter_thickness = 0.7
+hvl = "X19"
+modality = "DBT"
+number_angles = 2
+thickness = "X24"
+view = "CC"
+voltage = "X14"
+
+[ACR_phantom_tomo]
+air_kerma = "Y23"
+angle_range = 15
+anode = "Y15"
+density_percentage = ""
+density_percentile = 50
+detector_above_support = "Y11"
+filter_element = "Y16"
+filter_thickness = 0.7
+hvl = "Y19"
+modality = "DBT"
+number_angles = 2
+thickness = "Y24"
+view = "CC"
+voltage = "Y14"
+
+[60_mm_PMMA_tomo]
+air_kerma = "Z23"
+angle_range = 15
+anode = "Z15"
+density_percentage = ""
+density_percentile = 50
+detector_above_support = "Z11"
+filter_element = "Z16"
+filter_thickness = 0.7
+hvl = "Z19"
+modality = "DBT"
+number_angles = 2
+thickness = "Z24"
+view = "CC"
+voltage = "Z14"
