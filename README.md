@@ -1,5 +1,4 @@
 # TG282ExcelAdaptor
-Easy adaptor for Excel spreadsheet data input to the TG282 breast dosimetry executable.
 
 ## Description
 
@@ -29,6 +28,17 @@ To set up TG282ExcelAdaptor, follow these steps:
 4. Install the required dependencies:
    ```
    pip install -r requirements.txt
+
+5. (Optional) Create an executable:
+   To create a standalone executable, PyInstaller can be used. First, install PyInstaller:
+   ```
+   pip install pyinstaller
+   ```
+   Then, create the executable:
+   ```
+   pyinstaller --onefile --windowed main.py
+   ```
+   This will create a `dist` folder containing the executable. Note that the BreastAGD282 executable and 'data' folder still must be in the same directory as this executable.
 
 ## Usage
 
