@@ -6,7 +6,7 @@ TG282ExcelAdaptor is a Python-based tool designed to streamline the process of e
 
 ## Installation
 
-To set up TG282ExcelAdaptor, follow these steps:
+Requires Python 3.11 or greater. To set up TG282ExcelAdaptor, follow these steps:
 
 1. Clone the git repository:
    ```
@@ -25,9 +25,9 @@ To set up TG282ExcelAdaptor, follow these steps:
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-4. Install the required dependencies:
+4. Install xlwings:
    ```
-   pip install -r requirements.txt
+   pip install xlwings
 
 5. (Optional) Create an executable:
    To create a standalone executable, PyInstaller can be used. First, install PyInstaller:
