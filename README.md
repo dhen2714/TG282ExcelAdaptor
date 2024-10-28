@@ -36,7 +36,7 @@ Requires Python 3.11 or greater. To set up TG282ExcelAdaptor, follow these steps
    ```
    Then, create the executable:
    ```
-   pyinstaller --onefile --windowed main.py
+   pyinstaller --onefile main.py
    ```
    This will create a `dist` folder containing the executable. Note that the BreastAGD282 executable and 'data' folder still must be in the same directory as this executable.
 
