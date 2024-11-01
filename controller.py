@@ -2,7 +2,7 @@ from view import MainWindow
 from model import Model
 
 
-class Presenter:
+class Controller:
     def __init__(self, model: Model, view: MainWindow) -> None:
         self.model = model
         self.view = view
