@@ -5,7 +5,6 @@ from excel_processing import (
 )
 import xlwings as xw
 import csv
-from pywintypes import com_error
 import subprocess
 
 TMP_PATH = "tmp.csv"
@@ -58,7 +57,7 @@ class Model:
                 if book.name != self.selected_book_name:
                     book_names.append(book.name)
             return book_names
-        except (xw.XlwingsError, com_error, OSError) as e:
+        except Exception as e:
             self.selected_book = None
             self.selected_book_name = "-"
             return ["-"]
